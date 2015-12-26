@@ -1,6 +1,6 @@
 module Main where
 
-import Lib
+import Lamp.Location.Map
 
 main :: IO ()
-main = someFunc
+main = putStrLn $ show undergroundRiver
