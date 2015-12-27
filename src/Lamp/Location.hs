@@ -8,7 +8,6 @@ module Lamp.Location ( Location (..) ) where
 
 import qualified Data.Text as T
 import           Data.Text ( unpack, Text() )
---import           Prelude hiding ( show, showList, showPrec )
 
 data Location = Location { label :: Text
                          , exits :: [Location] }
